@@ -5,7 +5,6 @@
   <meta charset="utf-8">
 
      <title>Yhack_InJos</title>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
      <meta name="description" content="The HTML5 Herald">
     <meta name="author" content="SitePoint">
      <script src="https://kit.fontawesome.com/af63266a7b.js" crossorigin="anonymous"></script>
@@ -26,14 +25,12 @@
         </div>
 
             <ul class ="menubar">
-            <li><a href ="#" class ="Home"> Home </a></li>
-            <li><a href ="#" class ="Internship"> Internship </a></li>
-            <li><a href ="#" class ="Jobs"> Jobs </a></li>
-            <li><a href ="#" class ="Quiz"> Quiz </a></li>
-            <li><a href ="#" class ="FAQ"> FAQ </a></li>
-            <li><a href ="#" class ="Contact"> Contact </a></li>
-            <li><a href ="#" class ="More"> More </a></li>
-
+            <li><a href ="home.html" class ="Home"> Home </a></li>
+            <li><a href ="internship.html" class ="Internship"> Internship </a></li>
+            <li><a href ="jobs.html" class ="Jobs"> Jobs </a></li>
+            <li><a href ="quiz.html" class ="Quiz"> Quiz </a></li>
+            <li><a href ="contact.html" class ="Contact"> Contact </a></li>
+            <li><a href ="more.html" class ="More"> More </a></li>
             
             </ul>
 
@@ -64,6 +61,99 @@
                 <img src="Internship1.png">
             </div>
         </div>
+    </section>
+
+    <!----ABOUT QUIZZES-->
+
+    <section class = "Quizzes">
+        <div class ="Quizz_name">
+            <h1>What is Quizzes about?</h1>
+            <p>
+                Lauren Fielder had “no real idea of what I was doing’’ when she arrived at Brock Communications in 2012 while a junior at the University of South Florida. But she listened and learned how to write well. She parlayed that internship into another at AARP, where she became part of an award-winning social media team, and has since landed two high-level communications positions in Washington.
+            </p>
+            <p>
+                Lauren Fielder had “no real idea of what I was doing’’ when she arrived at Brock Communications in 2012 while a junior at the University of South Florida. But she listened and learned how to write well. She parlayed that internship into another at AARP, where she became part of an award-winning social media team, and has since landed two high-level communications positions in Washington.
+            </p>
+            <div class = learn_container>
+                <button onclick = "location.href = 'quiz.html' " class="intern_viewall">View All</button>            </div>
+        </div>
+    </section>
+
+    <!-----ABOUT INTERHSHIPS AND JOBS-->
+    
+    <section class = "internjob">
+        <div class = "content">
+            <div class ="Intern_Jobs">
+                <div class ="internship"><h1>INTERNSHIP</h1></div>
+            <h2>Thousands of great internships and available for you to apply for!</h2>
+            <p>Most of the students want to have internships before they graduate. The reasons are they want to gain the experience, the knowledge, earning money to support their study, or knowing the working method in every company
+            </p>
+            <div class = "intern_view">
+                <button onclick = "location.href = 'internship.html' " class="intern_viewall">View All</button>
+            </div>
+        </div>
+
+        <div class = "Intern_Jobs">
+            <div class ="job"><h1>JOBS</h1></div>
+            <h2>Can not find an official job? This page can help you! Check it out</h2>
+            <p>Jobs play an important part in your life. Jobs are the opportunites for you to use your personal skiils and make it perfect. On this page, there are thousands of jobs in every major. You can figure out what you want to do here!
+            </p>
+            <div class = "job_view">
+                <button onclick = "location.href = 'jobs.html' " class="intern_viewall">View All</button>            </div>
+        </div>
+    </section>
+
+    <!----CONTACT US-->
+
+    <section class = "contact_us">
+        <div class = "heading">
+            <h2>CONTACT US</h2>
+        </div>
+        <div class ="content">
+            <div class = "injo_message">
+                <p>Due to the huge amount of mails that we receive everyday, your mail will be responded in 1-2 businesses day.<br> DON'T WORRY WE ARE TRYING OUR BEST TO GIVE YOU THE BEST SERVICE!<br></p>
+                <div class ="contact_info">
+                    <div class ="box">
+                        <div class ="icon"></div>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class ="text">
+                            <h3>Address</h3>
+                            <p>4949 sisisisi 393939</p>
+                        </div>
+                    </div>
+                    <div class ="box">
+                        <div class ="icon"></div>
+                        <i class="fas fa-phone"></i>
+                        <div class ="text">
+                            <h3>Phone</h3>
+                            <p>123-456-7890</p>
+                        </div>
+                    </div>
+                    <div class ="box">
+                        <div class ="icon"></div>
+                        <i class="fas fa-envelope"></i>
+                        <div class ="text">
+                            <h3>Email</h3>
+                            <p>injos_teamservice@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class ="form_box">
+                <form>
+                    <h3>Email me</h3>
+                    <input type ="first_name" name="" placeholder="First Name">
+                    <input type ="Last_name" name="" placeholder="Last Name">
+                    <input type ="email" name="" placeholder="Email">
+                    <input type ="phone" name="" placeholder="Phone">
+                    <input type ="subject" name="" placeholder="Subject">
+                    <textarea placeholder="Type your message here"></textarea>
+                    <input type = "submit" value = "Submit">
+                    
+                </form>
+            </div>
+        </div>
+
     </section>
 
 </body>
